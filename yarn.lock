@@ -1373,6 +1373,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+tornis@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/tornis/-/tornis-0.3.5.tgz#5b70dd9ffe7809754778276d5297286ed12aa067"
+  integrity sha512-Ym1EIAJ2xL/yds9ld8gAp1Aw5n3QrhUA9Av0l3w7SorbEqGb7gNHmaXNYE/M00jFfOZeBdPiJQuI8mlq3mN4lg==
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
