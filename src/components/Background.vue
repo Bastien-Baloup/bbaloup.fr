@@ -48,13 +48,13 @@ onUnmounted(() => {
       src="/assets/W_1/layer_1.0.png"
       alt
       class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] -z-50 transition-all duration-500 ease-out"
-      style="transform: translate3d(calc(var(--shiftX) * -2%), calc(var(--shiftY) * -2%), 0);"
+      style="transform: translate3d(calc(var(--shiftX) * -1%), calc(var(--shiftY) * -1%), 0);"
     />
     <img
       src="/assets/W_1/layer_2.0.png"
       alt
       class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] z-[-49] transition-all duration-500 ease-out"
-      style="transform: translate3d(calc(var(--shiftX) * -1%), calc(var(--shiftY) * -1%), 0);"
+      style="transform: translate3d(calc(var(--shiftX) * -0.5%), calc(var(--shiftY) * -0.5%), 0);"
     />
     <img
       src="/assets/W_1/layer_3.0.png"
@@ -65,13 +65,13 @@ onUnmounted(() => {
       src="/assets/W_1/layer_4.0.png"
       alt
       class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] z-[-47] transition-all duration-500 ease-out"
-      style="transform: translate3d(calc(var(--shiftX) * 1%), calc(var(--shiftY) * 1%), 0);"
+      style="transform: translate3d(calc(var(--shiftX) * 0.5%), calc(var(--shiftY) * 0.5%), 0);"
     />
     <img
       src="/assets/W_1/layer_5.1.png"
       alt
       class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] z-[-45] transition-all duration-500 ease-out"
-      style="transform: translate3d(calc(var(--shiftX) * 2%), calc(var(--shiftY) * 2%), 0);"
+      style="transform: translate3d(calc(var(--shiftX) * 1%), calc(var(--shiftY) * 1%), 0);"
     />
     <div class="h-[3%] w-full fixed bottom-0 bg-purple-gray-600 z-[-46]" />
   </div>
