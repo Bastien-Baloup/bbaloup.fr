@@ -1,9 +1,16 @@
 <script setup>
 import Background from './components/Background.vue'
+import { NConfigProvider } from 'naive-ui'
+import themeOverrides from './assets/naive-ui-Dracula-theme-overrides.json'
+import Home from './components/Home.vue'
+console.log(themeOverrides)
 </script>
 
 <template>
-  <Background />
+  <NConfigProvider :theme-overrides="themeOverrides">
+    <Home />
+    <Background />
+  </NConfigProvider>
 </template>
 
 <style lang="postcss">
