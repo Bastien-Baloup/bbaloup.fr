@@ -1,13 +1,14 @@
 <script setup>
-import Background from './components/Background.vue'
 import { NConfigProvider } from 'naive-ui'
 import themeOverrides from './assets/naive-ui-Dracula-theme-overrides.json'
 import Home from './components/Home.vue'
+import Header from './components/Header.vue'
 console.log(themeOverrides)
 </script>
 
 <template>
   <NConfigProvider :theme-overrides="themeOverrides">
+    <Header />
     <Home />
   </NConfigProvider>
 </template>
