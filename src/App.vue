@@ -14,7 +14,7 @@ console.log(themeOverrides)
 </template>
 
 <style lang="postcss">
-@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Leckerli+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -37,5 +37,8 @@ body {
 
 .lily {
   font-family: 'Lily Script One', cursive;
+}
+.leckerli {
+  font-family: 'Leckerli One', cursive;
 }
 </style>
