@@ -37,8 +37,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <!-- Background -->
-  <div class="fixed top-0 left-0 right-0 bottom-0 overflow-hidden brightness-75 -z-10">
+  <div class="absolute top-0 left-0 right-0 bottom-0 overflow-hidden brightness-75 -z-10">
     <img
       src="/assets/W_1/layer_0.png"
       alt
