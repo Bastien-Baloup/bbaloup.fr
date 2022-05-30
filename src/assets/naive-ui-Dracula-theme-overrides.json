@@ -68,5 +68,8 @@
   },
   "Badge": {
     "color": "rgba(189, 147, 249, 1)"
+  },
+  "Drawer": {
+    "titleTextColor": "rgba(189, 147, 249, 1)"
   }
 }
