@@ -21,6 +21,9 @@ import Skills from './components/Skills.vue'
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   --shiftX: 0;
