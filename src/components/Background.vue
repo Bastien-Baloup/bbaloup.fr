@@ -41,37 +41,46 @@ onUnmounted(() => {
     <img
       src="/assets/W_1/layer_0.png"
       alt
-      class="min-h-full md:min-h-[115%] 2xl:min-h-[125%]] min-w-full object-cover fixed top-0 xl:top-[-5%] 2xl:top-[-10%] z-[-100]"
+      class="min-w-full object-cover fixed top-0 xl:top-[-5%] 2xl:top-[-10%] z-[-100]"
     />
     <img
       src="/assets/W_1/layer_1.0.png"
       alt
-      class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] -z-50 transition-all duration-500 ease-out"
+      class="moving left-[-5%] -z-50"
       style="transform: translate3d(calc(var(--shiftX) * -1%), calc(var(--shiftY) * -1%), 0);"
     />
     <img
       src="/assets/W_1/layer_2.0.png"
       alt
-      class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] z-[-49] transition-all duration-500 ease-out"
+      class="moving left-[-5%] z-[-49]"
       style="transform: translate3d(calc(var(--shiftX) * -0.5%), calc(var(--shiftY) * -0.5%), 0);"
     />
     <img
       src="/assets/W_1/layer_3.0.png"
       alt
-      class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] z-[-48]"
+      class="moving z-[-48]"
     />
     <img
       src="/assets/W_1/layer_4.0.png"
       alt
-      class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] z-[-47] transition-all duration-500 ease-out"
+      class="moving left-[-5%] z-[-47]"
       style="transform: translate3d(calc(var(--shiftX) * 0.5%), calc(var(--shiftY) * 0.5%), 0);"
     />
     <img
       src="/assets/W_1/layer_5.1.png"
       alt
-      class="min-h-full md:min-h-[115%] 2xl:min-h-[125%] w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] left-[-5%] z-[-45] transition-all duration-500 ease-out"
+      class="moving left-[-5%] z-[-45]"
       style="transform: translate3d(calc(var(--shiftX) * 1%), calc(var(--shiftY) * 1%), 0);"
     />
-    <div class="h-[3%] w-full fixed bottom-0 bg-purple-gray-600 z-[-46]" />
+    <div class="h-[3%] w-full fixed bottom-0 bg-gray-600 z-[-46]" />
   </div>
 </template>
+
+<style scoped lang="postcss">
+img {
+  @apply min-h-full md:min-h-[115%] 2xl:min-h-[125%];
+}
+.moving {
+  @apply w-[110%] min-w-[100vh] max-w-none fixed top-0 md:top-[-15%] 2xl:top-[-25%] transition-all duration-500 ease-out;
+}
+</style>
