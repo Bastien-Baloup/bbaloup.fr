@@ -3,10 +3,10 @@ import { NH2, NList, NListItem, NThing, NH3, NH4, NP, NA } from 'naive-ui';
 </script>
 
 <template>
-  <section id="skills" class="scroll-mt-[15vh] min-h-screen h-max">
+  <section id="skills" class="scroll-mt-[15vh] min-h-screen h-max pb-8">
     <n-h2 
       prefix="bar" align-text
-      class="text-[1.25rem] ml-5 md:text-[1.75rem] 2xl:text-[2rem] 2xl:ml-6">
+      class="text-[1.25rem] ml-5 mb-[4rem] md:text-[1.75rem] 2xl:text-[2rem] 2xl:ml-6">
       Mes Compétences
     </n-h2>
     <div class="flex flex-col items-stretch min-h-[62rem] lg:min-h-[unset] lg:flex-row lg:h-max mt-8">
