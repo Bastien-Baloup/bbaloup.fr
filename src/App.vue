@@ -4,13 +4,15 @@ import themeOverrides from './assets/naive-ui-Dracula-theme-overrides.json'
 import Header from './components/Header.vue'
 import Home from './components/Home.vue'
 import Skills from './components/Skills.vue'
+import Projects from './components/Projects.vue'
 </script>
 
 <template>
   <n-config-provider :theme-overrides="themeOverrides">
-    <Header />
-    <Home />
-    <Skills />
+    <Header/>
+    <Home/>
+    <Skills/>
+    <Projects/>
   </n-config-provider>
 </template>
 
